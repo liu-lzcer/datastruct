@@ -48,3 +48,15 @@ CodeforcesRound990_A.java 贪心算法
 idea:
 在面对贪心时一定要想好sum的加和判断条件，只有状态转移方程写对了答案才不会错。
 
+leetcode_force432 {
+
+QuickSort1.java 之字排序
+note:
+利用List暴力求解
+
+*leetcode_3418.java 高阶动态规划题目
+note:
+解决带限制的dp题目时，可以通过提高数组维度的方法来记录不同的限制情况
+同时还要注意在x方向和y方向同时对(0, 0)进行操作时潜在的覆盖最优解问题
+
+}
