@@ -9,21 +9,26 @@ public class RandomLinkedList {
         ListNode node2 = new ListNode(3, node1);
         ListNode node3 = new ListNode(4, node2);
         ListNode node4 = new ListNode(5, node3);
+        ListNode head = node4;
+
+        while (head != null) {
+            System.out.println(head.val + " " + head);
+            head = head.next;
+        }
 
         Method1 m1 = new Method1();
-        ListNode head = m1.method1(node4);
+         head = m1.method1(node4);
         while (head != null) {
-            System.out.println(head.val);
+            System.out.println(head.val + " " + head);
             head = head.next;
         }
 
         Method2 m2 = new Method2();
         head =  m2.method2(node4);
         while (head != null) {
-            System.out.println(head.val);
+            System.out.println(head.val + " " + head);
             head = head.next;
         }
-
     }
 }
 class Method1 {
