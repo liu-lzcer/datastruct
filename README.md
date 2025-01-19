@@ -7,8 +7,7 @@ note:
 什么是分治——>将问题分解，处理，合并；
 对于操作后会对后续数据处理产生影响的算法，可以对其进行反向处理（逆向思维）
 
-
-# EuclideanAlgorithm.java 欧几里得算法（辗转相除法求最大公约数Gcd）
+EuclideanAlgorithm.java 欧几里得算法（辗转相除法求最大公约数Gcd）
 
 
 QuickSort.java  快速排序
