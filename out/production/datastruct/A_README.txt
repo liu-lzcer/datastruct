@@ -37,6 +37,8 @@ note:
 将单向链表按某值划分成左边小、中间相等、右边大的形式
 
 Leetcode160.java 交叉链表
+note:
+相交的链表最后部分一定相同，利用此原理来解决问题
 
 LeetcodeLCR022.java 判断链表是否有环，以及环的入口节点位置
 note:
@@ -44,9 +46,17 @@ note:
 当快慢指针相遇时表明链表中有环
 当快慢指针相遇时，将快指针移至头节点，随后循环快指针和慢指针每次都只next一次，最后快慢指针相遇时的位置就是环的入口节点
 
+IntersectingLinkedList.java 可能有环的交叉链表
+
+
 CodeforcesRound990_A.java 贪心算法
 idea:
 在面对贪心时一定要想好sum的加和判断条件，只有状态转移方程写对了答案才不会错。
+
+RandomLinkedList.java 带有随机指针的链表复制
+*idea:
+通过map来产生对应关系
+通过相似关系创造规律
 
 leetcode_force432 {
 
@@ -60,8 +70,3 @@ note:
 同时还要注意在x方向和y方向同时对(0, 0)进行操作时潜在的覆盖最优解问题
 
 }
-
-RandomLinkedList.java 带有随机指针的链表复制
-idea:
-通过map来产生对应关系
-通过相似关系创造规律
