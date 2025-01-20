@@ -51,14 +51,18 @@ IntersectingLinkedList.java 可能有环的交叉链表
 idea:
 列举出全部可能的状态，写出每个状态下的题解
 
-CodeforcesRound990_A.java 贪心算法
-idea:
-在面对贪心时一定要想好sum的加和判断条件，只有状态转移方程写对了答案才不会错。
-
 RandomLinkedList.java 带有随机指针的链表复制
 *idea:
 通过map来产生对应关系
 通过相似关系创造规律
+
+BinaryTreeTraversal.java 二叉树的遍历
+note:
+通过栈或者队列来实现 先序、中序、后序、层次 遍历
+
+CodeforcesRound990_A.java 贪心算法
+idea:
+在面对贪心时一定要想好sum的加和判断条件，只有状态转移方程写对了答案才不会错。
 
 leetcode_force432 {
 
@@ -72,3 +76,4 @@ note:
 同时还要注意在x方向和y方向同时对(0, 0)进行操作时潜在的覆盖最优解问题
 
 }
+
