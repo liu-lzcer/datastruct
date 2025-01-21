@@ -30,6 +30,7 @@ note:
 快慢指针(双指针)同时还应用到了归并排序中
 
 ListNode.java 链表的类结构
+TreeNode.java 链表二叉树的类结构
 
 Leetcode86.java 链表快排
 note:
@@ -47,16 +48,21 @@ note:
 当快慢指针相遇时，将快指针移至头节点，随后循环快指针和慢指针每次都只next一次，最后快慢指针相遇时的位置就是环的入口节点
 
 IntersectingLinkedList.java 可能有环的交叉链表
-
-
-CodeforcesRound990_A.java 贪心算法
 idea:
-在面对贪心时一定要想好sum的加和判断条件，只有状态转移方程写对了答案才不会错。
+列举出全部可能的状态，写出每个状态下的题解
 
 RandomLinkedList.java 带有随机指针的链表复制
 *idea:
 通过map来产生对应关系
 通过相似关系创造规律
+
+BinaryTreeTraversal.java 二叉树的遍历
+note:
+通过栈或者队列来实现 先序、中序、后序、层次 遍历
+
+CodeforcesRound990_A.java 贪心算法
+idea:
+在面对贪心时一定要想好sum的加和判断条件，只有状态转移方程写对了答案才不会错。
 
 leetcode_force432 {
 
@@ -70,3 +76,4 @@ note:
 同时还要注意在x方向和y方向同时对(0, 0)进行操作时潜在的覆盖最优解问题
 
 }
+
