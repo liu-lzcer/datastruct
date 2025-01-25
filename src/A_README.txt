@@ -61,11 +61,18 @@ note:
 通过栈或者队列来实现 先序、中序、后序、层次 遍历
 
 BalancedBinaryTree.java 平衡二叉树
-note:
-递归 & 树形dp
 SearchBinaryTree.java 搜索二叉树
 note:
 递归 & 树形dp
+二叉树经典解法
+
+IsBinarySearchTree.java 判断搜索二叉树
+note:
+利用二叉树遍历的性质，中序遍历下搜索二叉树为升序排列；
+
+LowestCommonAncestor.java 二叉树最近公共祖先
+note:
+采用递归 & 树形dp
 
 CodeforcesRound990_A.java 贪心算法
 idea:

@@ -60,6 +60,13 @@ BinaryTreeTraversal.java 二叉树的遍历
 note:
 通过栈或者队列来实现 先序、中序、后序、层次 遍历
 
+BalancedBinaryTree.java 平衡二叉树
+note:
+递归 & 树形dp
+SearchBinaryTree.java 搜索二叉树
+note:
+递归 & 树形dp
+
 CodeforcesRound990_A.java 贪心算法
 idea:
 在面对贪心时一定要想好sum的加和判断条件，只有状态转移方程写对了答案才不会错。
