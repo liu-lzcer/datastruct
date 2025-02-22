@@ -74,6 +74,10 @@ LowestCommonAncestor.java 二叉树最近公共祖先
 note:
 采用递归 & 树形dp
 
+BinaryTreeSuccessorNode.java 二叉树后继节点
+note:
+分类、列举出全部可能的状态，写出每个状态下的题解
+
 CodeforcesRound990_A.java 贪心算法
 idea:
 在面对贪心时一定要想好sum的加和判断条件，只有状态转移方程写对了答案才不会错。
