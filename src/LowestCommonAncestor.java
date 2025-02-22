@@ -54,6 +54,6 @@ public class LowestCommonAncestor {
         root.left.right.left = new TreeNode(7);
         root.left.right.right = new TreeNode(4);
 
-        //System.out.println(lo.lowestCommonAncestor(root, root.left, root.left.right.right).val);
+        System.out.println(lo.lowestCommonAncestor(root, root.left, root.left.right.right).val);
     }
 }
