@@ -1,26 +1,39 @@
 public class LowestCommonAncestor {
-    TreeNode treenode;
+//    TreeNode treenode;
+//
+//    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+//        if(root == null)
+//            return null;
+//        treenode = root;
+//        isCommon(root, p, q);
+//
+//        return treenode;
+//
+//    }
+//    boolean isCommon(TreeNode root, TreeNode p, TreeNode q) {
+//        if(root == null)
+//            return false;
+//        boolean t = root == p || root == q;
+//        boolean l = isCommon(root.left, p, q);
+//        boolean r = isCommon(root.right, p, q);
+//        if(t ? (l || r) : (l && r)) {
+//            treenode = root;
+//            return false;
+//        }
+//        return t || l || r;
+//    }
 
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null)
-            return null;
-        treenode = root;
-        isCommon(root, p, q);
-
-        return treenode;
-
-    }
-    boolean isCommon(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null)
-            return false;
-        boolean t = root == p || root == q;
-        boolean l = isCommon(root.left, p, q);
-        boolean r = isCommon(root.right, p, q);
-        if(t ? (l || r) : (l && r)) {
-            treenode = root;
-            return false;
+    public TreeNode lowestCommonAncestor(TreeNode head, TreeNode p, TreeNode q) {
+        if(head == null || head == p || head == q) {
+            return head;
         }
-        return t || l || r;
+
+        TreeNode left = lowestCommonAncestor(head.left, p, q);
+        TreeNode right = lowestCommonAncestor(head.right, p, q);
+        if(left != null && right != null)
+            return head;
+
+        return left != null ? left : right;
     }
 
     public static void main(String[] args) {
@@ -41,6 +54,6 @@ public class LowestCommonAncestor {
         root.left.right.left = new TreeNode(7);
         root.left.right.right = new TreeNode(4);
 
-        System.out.println(lo.lowestCommonAncestor(root, root.left, root.left.right.right).val);
+        //System.out.println(lo.lowestCommonAncestor(root, root.left, root.left.right.right).val);
     }
 }
