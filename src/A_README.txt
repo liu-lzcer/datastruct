@@ -85,6 +85,14 @@ note:
 
 图:
 
+Node.java 节点
+Graph.java 图类(节点集+边集)
+Edge.java 边类(权值+边集)
+GraphGenerator.java 图生成类
+
+
+
+
 贪心:
 
 CodeforcesRound990_A.java 贪心算法
