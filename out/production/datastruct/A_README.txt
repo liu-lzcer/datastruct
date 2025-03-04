@@ -1,3 +1,4 @@
+排序:
 
 SmallNumber.java 归并排序
 InversionNumber.java 逆序数、分治+归并
@@ -23,6 +24,8 @@ note:
 RadixSort.java 基数排序 + 桶排序
 note:
 不具有稳定性，时间复杂度也赶不上快排
+
+链表与排序(双指针):
 
 PalindromeLinkedList.java 快慢指针
 note:
@@ -56,6 +59,8 @@ RandomLinkedList.java 带有随机指针的链表复制
 通过map来产生对应关系
 通过相似关系创造规律
 
+二叉树:
+
 BinaryTreeTraversal.java 二叉树的遍历
 note:
 通过栈或者队列来实现 先序、中序、后序、层次 遍历
@@ -74,9 +79,33 @@ LowestCommonAncestor.java 二叉树最近公共祖先
 note:
 采用递归 & 树形dp
 
+BinaryTreeSuccessorNode.java 二叉树后继节点
+note:
+分类、列举出全部可能的状态，写出每个状态下的题解
+
+图:
+
+Node.java 节点
+Graph.java 图类(节点集+边集)
+Edge.java 边类(权值+边集)
+GraphGenerator.java 图生成类
+
+Bfs.java 广度优先遍历
+note:
+使用队列来实现
+
+Dfs.java 深度优先遍历
+note:
+使用栈来实现
+
+
+贪心:
+
 CodeforcesRound990_A.java 贪心算法
 idea:
 在面对贪心时一定要想好sum的加和判断条件，只有状态转移方程写对了答案才不会错。
+
+力扣周赛:
 
 leetcode_force432 {
 
