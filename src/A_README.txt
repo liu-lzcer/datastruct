@@ -98,9 +98,13 @@ Dfs.java 深度优先遍历
 note:
 使用栈来实现
 
-kruskalMST.java 最小生成树算法
+kruskalMST.java 最小生成树算法(边算法)
 note:
 使用set合并区间法，求出无环的最小生成树
+
+Prim.java 最小生成树算法(节点算法)
+note:
+利用优先级队列，set去重
 
 贪心:
 
