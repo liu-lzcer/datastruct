@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-
 public class Node {
     public int value;
     public int in;
